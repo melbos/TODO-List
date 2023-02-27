@@ -1,0 +1,65 @@
+/* ABSTRACTS */
+html,
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+} /* BASE */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* COMPONENTS */
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #000000;
+  padding: 10px;
+}
+.todo div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.todo button {
+  padding: 5px 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+/* LAYOUT */
+.todoContainer {
+  padding: 20px 50px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.todoForm {
+  padding: 50px;
+  padding-bottom: 20px;
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  gap: 10px;
+}
+.todoForm input[type=text] {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+}
+.todoForm input[type=submit] {
+  padding: 10px;
+}/*# sourceMappingURL=styles.css.map */

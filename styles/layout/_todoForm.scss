@@ -1,0 +1,27 @@
+.todoForm {
+    padding: 50px;
+    padding-bottom: 20px;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    gap: 10px;
+
+    input[type='text'] {
+        display: flex;
+        flex: 1;
+        padding: 10px;
+    }
+
+    input[type='submit'] {
+        padding: 10px;
+    }
+}
+
+.errorText {
+    font-size: 10px;
+    color: red;
+    width: 45%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
